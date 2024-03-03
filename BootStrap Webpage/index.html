@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap Webpage</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+        <div class="container-fluid py-3">
+          <a class="navbar-brand" href="#">QWI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Work Culture</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Others
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item dropper" href="#">Our Team</a></li>
+                  <li><a class="dropdown-item" href="#">Our Clients who trusted us</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+              <button type="button" class="btn btn-primary position-relative m-2">
+                Your Messages
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              
+               <p class="d-inline-flex gap-1">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Download our membership form
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      Just wait a second!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              About Company
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Career With Us
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="new-container d-flex flex-wrap align-content-center justify-content-center py-5" >
+        <h1>We are well known for Web and Android Development.
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Click Here to Check Further</button>
+
+<div class="offcanvas offcanvas-start bg-info" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">More About our Team</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>We specialize in delivering high-quality custom software development services that help businesses streamline their operations, improve their efficiency, and drive growth. We are an experienced Software Outsourcing Company with developers who are passionate about creating software that solves real-world problems and delivers measurable results.</p>
+  </div>
+</div>
+        </h1>
+      </div>
+        <section class="card-sec col-12">
+        <div class="card w-50 h-25" style="width: 18rem;">
+            <img src="quickway.jpg" class="card-img-top" alt="Quickway">
+            <div class="card-body">
+              <h4 class="card-title">Quickway Infosystems</h4>
+              <p class="card-text">We are here for all your business related needs.</p>
+              <a href="#" class="btn btn-primary">Lets's Explore</a>
+            </div>
+          </div>
+      </section>
+      <section class="section-container" >
+        <div class="container d-flex" >
+             <div class="row mb-5">
+                 <div class="col-12 col-md-12 col-lg-6 flex-column justify-content-center align-items-center" >
+                      <h1 class="fw-bolder text-black" >We are here for you.</h1>
+                      <p class="mt-3 mb-5" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tempore, porro laudantium atque quaerat dolor consectetur eligendi facere laborum placeat alias inventore ratione sed fugit sit, ducimus quidem iusto est.</p>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores nam nemo blanditiis, doloremque perferendis temporibus, quis suscipit recusandae incidunt omnis soluta doloribus consequuntur saepe? Voluptas fuga dignissimos reprehenderit ducimus illum!</p>
+                      <button type="button" class="btn btn-success">Dive Inside</button>
+                      <br>
+                      <br>
+              
+                 </div>
+             </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="contain1 col-6">
+            <h1>Tools we use for Front-End Development</h1>
+          </div>
+
+          <div class="contain2">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="angular.png" class="d-block w-25 align-content-center" alt="angular">
+                </div>
+                <div class="carousel-item">
+                  <img src="vue.png" class="d-block w-25" alt="vue">
+                </div>
+                <div class="carousel-item">
+                  <img src="react.png" class="d-block w-25" alt="react">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+      </section> 
+
+     
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    
+</body>
+</html>

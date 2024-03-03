@@ -1,0 +1,49 @@
+.wholebox {
+    width: 300px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.insidebox {
+
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    background: rgb(131, 129, 129);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/*.first {
+    display: flex;
+    width: 60px;
+    height: 10px;
+    border: 1px solid grey;
+    position: absolute;
+
+}*/
+
+.btn {
+    background-color: rgb(13, 95, 218);
+    height: 43px;
+    width: 135px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.btnclass {
+    padding-top: 140px;
+    padding-left: 15px;
+}
+
+.first {
+    border: 1px solid gray;
+    height: 20px;
+    width: 125px;
+}
+
+.firstclass {
+    padding-top: 20px;
+    padding-left: 15px;
+}

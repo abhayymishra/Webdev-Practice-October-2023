@@ -1,0 +1,82 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-brand {
+    background-color: rgb(37, 163, 53);
+    border-radius: 10px;
+}
+
+.nav-item {
+    background-color: rgb(119, 226, 98);
+    border-radius: 10px;
+}
+
+.container-fluid {
+    background-color: rgb(159, 245, 205);
+}
+
+#collapseExample {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.card {
+    opacity: 0.7;
+}
+
+.section-container {
+    background-color: crimson;
+}
+
+.card-sec {
+    background: url(wequick.jpg) no-repeat 80px;
+    background-size: 1500px; 
+}
+
+.new-container {
+    background-image: linear-gradient(rgb(128, 128, 248) , white);
+}
+
+.accordian-item {
+    background-color: blue;
+}
+
+.btn1 {
+    background-color: green;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFF  !important;
+    background-color: #5500C9 !important;
+  }
+  
+  
+  
+  .accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #5500C9 !important;
+      color:#FFF !important;
+      text-decoration: none !important;
+       border: hidden !important;
+         border-color: #FFF !important;
+      box-shadow: 0px !important;
+  
+        
+  }
+  
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #FFF !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FFF !important;
+  }
+
+

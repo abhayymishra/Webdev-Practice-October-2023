@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-brand{
+    font-size: 30px !important;
+}
+
+.contain {
+    background-color: rgb(88, 199, 88);
+}
+
+.spotcolor {
+    color: rgb(67, 183, 236);
+}
+
+.digcolor {
+    color: green;
+}
